@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 # تحميل ملف CSV الوحيد
-df = pd.read_csv('million.csv')
+df = pd.read_csv('omar.csv')
 
 # نقطة نهاية واحدة ترجع كل البيانات
 @app.route('/api/gold', methods=['GET'])
